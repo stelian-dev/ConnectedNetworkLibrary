@@ -7,7 +7,7 @@ This library can be used on both Linux and Windows.
 
 ## Connection based sockets
 Reliable sockets that ensures the data is not duplicated or lost. There are two kinds of connection based sockets: *acceptor* and *socket_stream*.
-To use *acceptor* and *socket_stream* types, *protocol/tcp.hpp* header must be included.
+To use *acceptor* and *socket_stream* types, *cnl/protocol/tcp.hpp* header must be included.
 
 Example:
 ```
@@ -40,7 +40,7 @@ Note: the accept method must have as parameter a function with the following sig
 ```
 ## Connectionless sockets
 Unreliable sockets. There is only one kind of connectionless sockets: *socket_datagram*.
-To use *socket_datagram* type, *protocol/udp.hpp* header must be included.
+To use *socket_datagram* type, *cnl/protocol/udp.hpp* header must be included.
 
 Example:
 ```
