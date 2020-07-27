@@ -1,7 +1,7 @@
 #pragma once
-#include <misc/config.hpp>
-#include <misc/types.hpp>
-#include <endpoint/endpoint_base.hpp>
+#include <cnl/misc/config.hpp>
+#include <cnl/misc/types.hpp>
+#include <cnl/endpoint/endpoint_base.hpp>
 #include <array>
 
 namespace connected
@@ -56,4 +56,4 @@ protected:
 
 }//namespace network
 
-#include <socket/socket_base.ipp>
+#include <cnl/socket/socket_base.ipp>

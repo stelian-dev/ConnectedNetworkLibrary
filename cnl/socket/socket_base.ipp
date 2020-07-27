@@ -5,8 +5,8 @@
     #include <sys/socket.h>
     #include <unistd.h>
 #endif
-#include <misc/constants.hpp>
-#include <exception/exception.hpp>
+#include <cnl/misc/constants.hpp>
+#include <cnl/exception/exception.hpp>
 #include <errno.h>
 
 namespace connected
@@ -70,8 +70,6 @@ void socket_base::listen(unsigned max_pending_connections)
 
 cnl_socket_type socket_base::accept(error& err)
 {
-    cnl_sockaddr_in remote_addr;
-    cnl_socklen_t remote_addr_len = sizeof(remote_addr);
     cnl_socket_type remote_socket = ::accept(handle_,
                                             nullptr,
                                             nullptr);

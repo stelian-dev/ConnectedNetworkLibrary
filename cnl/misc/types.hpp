@@ -1,5 +1,5 @@
 #pragma once
-#include <misc/config.hpp>
+#include <cnl/misc/config.hpp>
 #if defined(WINDOWS)
     #include <winsock2.h>
     #include <winsock.h>

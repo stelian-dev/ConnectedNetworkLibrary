@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <string.h>
-#include <misc/constants.hpp>
+#include <cnl/misc/constants.hpp>
 
 namespace connected
 {
@@ -62,4 +62,4 @@ private:
 
 } // namespace connected
 
-#include <error/error.ipp>
+#include <cnl/error/error.ipp>

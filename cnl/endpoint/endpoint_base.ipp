@@ -3,7 +3,7 @@
 #elif defined(LINUX)
     #include <arpa/inet.h>
 #endif
-#include <exception/exception.hpp>
+#include <cnl/exception/exception.hpp>
 namespace connected
 {
 namespace network

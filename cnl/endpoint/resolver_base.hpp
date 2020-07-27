@@ -4,8 +4,8 @@
 #elif defined(LINUX)
     #include <arpa/inet.h>
 #endif
-#include <protocol/internet_protocol.hpp>
-#include <endpoint/endpoint_base.hpp>
+#include <cnl/protocol/internet_protocol.hpp>
+#include <cnl/endpoint/endpoint_base.hpp>
 #include <string>
 #include <list>
 
@@ -103,4 +103,4 @@ private:
 
 } // namespace connected
 
-#include <endpoint/resolver_base.ipp>
+#include <cnl/endpoint/resolver_base.ipp>

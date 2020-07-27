@@ -1,8 +1,8 @@
 #pragma once
-#include <socket/socket_base.hpp>
-#include <endpoint/endpoint_base.hpp>
-#include <protocol/internet_protocol.hpp>
-#include <error/error.hpp>
+#include <cnl/socket/socket_base.hpp>
+#include <cnl/endpoint/endpoint_base.hpp>
+#include <cnl/protocol/internet_protocol.hpp>
+#include <cnl/error/error.hpp>
 #include <array>
 
 namespace connected
@@ -81,4 +81,4 @@ protected:
 
 } // namespace connected
 
-#include <socket/socket_stream.ipp>
+#include <cnl/socket/socket_stream.ipp>

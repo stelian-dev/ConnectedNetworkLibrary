@@ -1,5 +1,5 @@
 #pragma once
-#include <protocol/internet_protocol.hpp>
+#include <cnl/protocol/internet_protocol.hpp>
 #include <string>
 
 namespace connected
@@ -82,4 +82,4 @@ private:
 
 } //namespace network
 
-#include <endpoint/endpoint_base.ipp>
+#include <cnl/endpoint/endpoint_base.ipp>

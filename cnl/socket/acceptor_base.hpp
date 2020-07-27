@@ -1,5 +1,5 @@
 #pragma once
-#include <socket/socket_stream.hpp>
+#include <cnl/socket/socket_stream.hpp>
 #include <functional>
 
 namespace connected
@@ -72,4 +72,4 @@ private:
     
 } // namespace connected
 
-#include <socket/acceptor_base.ipp>
+#include <cnl/socket/acceptor_base.ipp>

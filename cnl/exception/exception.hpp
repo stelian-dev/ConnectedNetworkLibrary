@@ -1,5 +1,5 @@
 #pragma once
-#include <error/error.hpp>
+#include <cnl/error/error.hpp>
 #include <exception>
 #include <string>
 
@@ -77,4 +77,4 @@ private:
 
 } // namespace connected
 
-#include <exception/exception.ipp>
+#include <cnl/exception/exception.ipp>

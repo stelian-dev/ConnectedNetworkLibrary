@@ -4,7 +4,7 @@
 #elif defined(LINUX)
     #include <sys/socket.h>
 #endif
-#include <misc/config.hpp>
+#include <cnl/misc/config.hpp>
 
 namespace connected
 {

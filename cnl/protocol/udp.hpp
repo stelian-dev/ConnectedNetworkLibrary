@@ -1,9 +1,9 @@
 #pragma once
-#include <socket/socket_datagram.hpp>
-#include <protocol/internet_protocol.hpp>
-#include <endpoint/resolver_base.hpp>
-#include <endpoint/endpoint_base.hpp>
-#include <error/error.hpp>
+#include <cnl/socket/socket_datagram.hpp>
+#include <cnl/protocol/internet_protocol.hpp>
+#include <cnl/endpoint/resolver_base.hpp>
+#include <cnl/endpoint/endpoint_base.hpp>
+#include <cnl/error/error.hpp>
 
 namespace connected
 {

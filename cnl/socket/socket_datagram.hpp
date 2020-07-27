@@ -1,6 +1,6 @@
 #pragma once
-#include <socket/socket_base.hpp>
-#include <endpoint/endpoint_base.hpp>
+#include <cnl/socket/socket_base.hpp>
+#include <cnl/endpoint/endpoint_base.hpp>
 #include <array>
 
 namespace connected
@@ -77,4 +77,4 @@ public:
 
 } // namespace connected
 
-#include <socket/socket_datagram.ipp>
+#include <cnl/socket/socket_datagram.ipp>
