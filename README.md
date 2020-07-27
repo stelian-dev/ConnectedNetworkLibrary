@@ -17,7 +17,7 @@ Example:
     ipv4::tcp::acceptor acceptor(10);
     ///Bind the acceptor to the endpoint
     acceptor.bind(endpoint);
-    ///Mark the socket as *passive*
+    ///Mark the socket as passive
     acceptor.listen();
     ///Start accepting new connetions
     acceptor.accept([](ipv4::tcp::socket& socket, error err){
