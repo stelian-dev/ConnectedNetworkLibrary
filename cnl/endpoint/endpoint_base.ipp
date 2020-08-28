@@ -88,7 +88,9 @@ void endpoint_base<ip4>::set_data(unsigned port)
 template<>
 void endpoint_base<ip6>::set_data(unsigned port)
 {
-    throw exception::not_implemented("ipv6");
+    data_.in6_.sin6_family      = ip_type::family();
+    data_.in6_.sin6_port        = htons(port);
+    data_.in6_.sin6_addr        = CNL_INADDR6_ANY;
 } 
 
 template<class InternetProtocol>
