@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.8)
 set(LibraryNameTests ${LibraryName}Tests)
 
 set(Sources
-    EndpointTests.cpp)
+    endpoint_tests.cpp)
 
 add_executable(${LibraryNameTests} ${Sources})
 
